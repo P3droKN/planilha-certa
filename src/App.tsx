@@ -181,13 +181,6 @@ export default function App() {
             </div>
           </div>
 
-          <button 
-            onClick={() => setIsAdminOpen(!isAdminOpen)}
-            className="text-[10px] font-bold text-slate-300 hover:text-indigo-600 transition-colors"
-            title="Acesso Admin"
-          >
-            Acesso Restrito
-          </button>
         </div>
       </header>
 
