@@ -86,4 +86,8 @@ export default function App() {
         createdAt: new Date().toISOString()
       };
 
-      const updatedLeads = [newLead, ...leads]
+      const updatedLeads = [newLead, ...leads];
+      setLeads(updatedLeads);
+      localStorage.setItem('captured_leads', JSON.stringify(updatedLeads));
+      
+      setCurrentLead(newLead);
